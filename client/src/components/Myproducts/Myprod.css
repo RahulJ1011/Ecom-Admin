@@ -1,0 +1,35 @@
+.myproduct-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.myprod
+{
+    display: flex;
+    flex-direction: column;
+    gap:"5px";
+    padding: 20px;
+    justify-content: center;
+}
+.prices
+{
+    display: flex;
+    gap:"10px";
+    
+}
+.prev-price
+{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: line-through;
+    color: red;
+}
+.price
+{
+    font-weight: 600;
+    font-size: 19px;
+    padding: 5px;
+    color: green;
+}
